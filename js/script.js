@@ -8,7 +8,7 @@ let walkingRoutes;
 let currentPage = 1;
 let maxPage = 1;
 function walkingRoutesHandler() {
-    const url = new URL("http://exam-2023-1-api.std-900.ist.mospolytech.ru/api/routes");
+    const url = new URL("https://exam-2023-1-api.std-900.ist.mospolytech.ru/api/routes");
     url.searchParams.append('api_key', api_key);
     const xhr = new XMLHttpRequest();
     xhr.open('GET', url.toString());
